@@ -11,7 +11,8 @@ public class Main {
     public static void main(String[] args) throws IOException {
         ArrayList<Person> list = new ArrayList<>();
         String[] names = {"Bert", "Tobias", "Jurgen", "Marco", "Wessel", "Rick", "Rowald", "Pieter",
-                "Brigitte", "Menno", "Silvio", "Andre"};
+                "Brigitte", "Menno", "Silvio", "Andre", "Ollie", "Donja", "Eric", "Faroek",
+                "Gerard", "Jasper", "Matthias", "Remo"};
 
 //        Lees alle json bestanden, maak er objecten van en zet ze in een list
         for (String name : names) {
