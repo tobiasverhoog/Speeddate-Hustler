@@ -5,16 +5,12 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class Person implements Serializable {
-    private String name;
-    private ArrayList<String> history = new ArrayList<>();
+    private final String name;
+    private final ArrayList<String> history = new ArrayList<>();
     private transient boolean hasMatch;
 
     public Person(String name) {
         this.name = name;
-    }
-
-    public void addPersonToHistory(String name) {
-        history.add(name);
     }
 
     public String getName() {
