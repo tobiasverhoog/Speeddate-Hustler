@@ -12,7 +12,7 @@ public class Main {
         ArrayList<Person> list = new ArrayList<>();
         String[] names = {"Bert", "Tobias", "Jurgen", "Marco", "Wessel", "Rick", "Rowald", "Pieter",
                 "Brigitte", "Menno", "Silvio", "Andre", "Ollie", "Donja", "Eric", "Faroek",
-                "Gerard", "Jasper", "Matthias", "Remo"};
+                "Gerard", "Jasper", "Matthias", "Remo", "Robin", "Guillaume", "Vincent"};
 
 //        Lees alle json bestanden, maak er objecten van en zet ze in een list
         for (String name : names) {
