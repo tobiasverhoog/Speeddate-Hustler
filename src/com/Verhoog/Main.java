@@ -10,9 +10,8 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
         ArrayList<Person> list = new ArrayList<>();
-        String[] names = {"Bert", "Tobias", "Jurgen", "Marco", "Wessel", "Rick", "Rowald", "Pieter",
-                "Brigitte", "Menno", "Silvio", "Andre", "Ollie", "Donja", "Eric", "Faroek",
-                "Gerard", "Jasper", "Matthias", "Remo", "Robin", "Guillaume", "Vincent"};
+        String[] names = {"Andre", "Bert", "Brigitte", "Eric", "Gerard", "Ian", "Jasper", "Jelle", "Joeri", "Jurgen",
+                "Maikel", "Marco", "Menno", "Ollie", "Pieter", "Rick", "Rowald", "Silvio", "Tobias", "Vincent"};
 
 //        Lees alle json bestanden, maak er objecten van en zet ze in een list
         for (String name : names) {
